@@ -15,7 +15,7 @@ A command-line tool for scheduling interviews with automatic Google Calendar int
 ## Installation
 
 ```bash
-pipx install interview-scheduler
+pip install -e .
 ```
 
 ## Quick Start
