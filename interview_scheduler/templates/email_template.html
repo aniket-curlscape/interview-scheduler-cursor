@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Interview Invitation</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+        .details { background-color: #e9ecef; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .meeting-link { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 10px 0; }
+        .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid #dee2e6; font-size: 0.9em; color: #6c757d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Interview Invitation</h2>
+            <p>Dear {{ name }},</p>
+            <p>We are pleased to invite you to an interview for the position you applied for.</p>
+        </div>
+
+        <div class="details">
+            <h3>Interview Details</h3>
+            <ul>
+                <li><strong>Date:</strong> {{ date }}</li>
+                <li><strong>Time:</strong> {{ time }}</li>
+                <li><strong>Duration:</strong> {{ duration_minutes }} minutes</li>
+                <li><strong>Platform:</strong> Google Meet</li>
+            </ul>
+        </div>
+
+        <p>Please join the meeting using the link below at the scheduled time:</p>
+        <a href="{{ meeting_link }}" class="meeting-link">Join Interview Meeting</a>
+
+        <h3>What to expect:</h3>
+        <ul>
+            <li>Technical discussion about your background</li>
+            <li>Questions about your experience and skills</li>
+            <li>Opportunity for you to ask questions about the role</li>
+        </ul>
+
+        <p><strong>Please confirm your attendance by replying to this email.</strong> If you need to reschedule, please let us know as soon as possible.</p>
+
+        <p>We look forward to speaking with you!</p>
+
+        <p>Best regards,<br>The Interview Team</p>
+
+        <div class="footer">
+            <p><em>This is an automated message. Please do not reply to this email address.</em></p>
+            <p>Meeting Link: <a href="{{ meeting_link }}">{{ meeting_link }}</a></p>
+        </div>
+    </div>
+</body>
+</html>

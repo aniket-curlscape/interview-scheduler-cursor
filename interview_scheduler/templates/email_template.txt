@@ -1,0 +1,28 @@
+Subject: Interview Invitation - {{ date }} at {{ time }}
+
+Dear {{ name }},
+
+I hope this email finds you well. We are pleased to invite you to an interview.
+
+Interview Details:
+- Date: {{ date }}
+- Time: {{ time }}
+- Duration: {{ duration_minutes }} minutes
+
+Please join the meeting using the link above at the scheduled time. The interview will be conducted via Google Meet. Please join using laptop and be camera ready.
+
+What to expect:
+- Technical discussion about your background
+- Questions about your experience and skills
+- Opportunity for you to ask questions about the role
+
+Please confirm your attendance by replying to this email. 
+
+If you need to reschedule, please let us know as soon as possible.
+
+We look forward to speaking with you!
+
+Any other questions? DM and email are always open!
+
+Best regards,
+Hiring Manager.
